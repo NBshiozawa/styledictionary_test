@@ -10,6 +10,7 @@ export default {
   platforms: {
     ios: {
       transformGroup: "ios",
+      transforms: ["name/camel"],
       buildPath: "build/ios/",
       files: [
         {

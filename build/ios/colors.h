@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, ) {
-BackgroundPrimary,
-SurfacePrimary,
-SurfaceSecondary,
-SurfaceSecondaryAlpha,
-SurfaceTertiary,
-SurfaceTertiaryAlpha,
-TextPrimary,
-TextSecondary,
-TextTertiary,
-TextInverse
+backgroundPrimary,
+surfacePrimary,
+surfaceSecondary,
+surfaceSecondaryAlpha,
+surfaceTertiary,
+surfaceTertiaryAlpha,
+textPrimary,
+textSecondary,
+textTertiary,
+textInverse
 };
 
 @interface : NSObject
