@@ -5,6 +5,7 @@
   },
   "type": "module",
   "scripts": {
+    "transform": "token-transformer tokens/tokens.json tokens/sd-tokens.json",
     "build": "style-dictionary build"
   }
 }
