@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="background_primary">#fff2eee8</color>
+  <color name="surface_primary">#ffffffff</color>
+  <color name="surface_secondary">#fff7f5f1</color>
+  <color name="surface_secondary_alpha">#0d7a5618</color>
+  <color name="surface_tertiary">#ffd4d4d4</color>
+  <color name="surface_tertiary_alpha">#2b000000</color>
+  <color name="text_primary">#cc000000</color>
+  <color name="text_secondary">#8c000000</color>
+  <color name="text_tertiary">#6b000000</color>
+  <color name="text_inverse">#ffffffff</color>
+</resources>
