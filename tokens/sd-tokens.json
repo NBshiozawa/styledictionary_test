@@ -1,58 +1,16 @@
 {
-  "Background": {
-    "Primary": {
-      "value": "#f2eee8",
-      "type": "color"
-    }
-  },
-  "Surface": {
-    "Primary": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "Secondary": {
-      "value": "#f7f5f1",
-      "type": "color"
-    },
-    "SecondaryAlpha": {
-      "value": "#7a56180d",
-      "type": "color"
-    },
-    "Tertiary": {
-      "value": "#d4d4d4",
-      "type": "color"
-    },
-    "TertiaryAlpha": {
-      "value": "#0000002b",
-      "type": "color"
-    }
-  },
-  "Text": {
-    "Primary": {
-      "value": "#000000cc",
-      "type": "color"
-    },
-    "Secondary": {
-      "value": "#0000008c",
-      "type": "color"
-    },
-    "Tertiary": {
-      "value": "#0000006b",
-      "type": "color"
-    },
-    "Inverse": {
-      "value": "#ffffff",
-      "type": "color"
-    }
-  },
   "Primitive": {
-    "Lemon400": {
-      "value": "#ffd600",
-      "type": "color"
+    "Lemon": {
+      "Lemon400": {
+        "value": "#ffd600",
+        "type": "color"
+      }
     },
-    "Lime400": {
-      "value": "#9dd900",
-      "type": "color"
+    "Lime": {
+      "Lime400": {
+        "value": "#9dd900",
+        "type": "color"
+      }
     },
     "Red": {
       "Red50": {
@@ -402,9 +360,7 @@
       "Brown900": {
         "value": "#6b4a10",
         "type": "color"
-      }
-    },
-    "BrownA": {
+      },
       "Brown50A": {
         "value": "#7a56180d",
         "type": "color"
@@ -438,7 +394,7 @@
         "type": "color"
       }
     },
-    "GrayA": {
+    "Gray": {
       "Gray50A": {
         "value": "#00000008",
         "type": "color"
@@ -478,9 +434,7 @@
       "Gray900A": {
         "value": "#000000cc",
         "type": "color"
-      }
-    },
-    "Gray": {
+      },
       "Gray50": {
         "value": "#f7f7f7",
         "type": "color"
@@ -523,22 +477,64 @@
       }
     },
     "White": {
-      "value": "#ffffff",
-      "type": "color"
+      "White1000": {
+        "value": "#ffffff",
+        "type": "color"
+      }
     },
     "Black": {
-      "value": "#000000",
-      "type": "color"
+      "Black1000": {
+        "value": "#000000",
+        "type": "color"
+      }
     }
   },
-  "tokenSetOrder": {
-    "0": {
-      "value": "PrimitiveColor/Value",
-      "type": "other"
+  "Color": {
+    "Background": {
+      "Primary": {
+        "value": "#f0f0f0",
+        "type": "color"
+      }
     },
-    "1": {
-      "value": "SemanticColor/Default",
-      "type": "other"
+    "Surface": {
+      "Primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#f7f5f1",
+        "type": "color"
+      },
+      "SecondaryAlpha": {
+        "value": "#7a56180d",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#d4d4d4",
+        "type": "color"
+      },
+      "TertiaryAlpha": {
+        "value": "#0000002b",
+        "type": "color"
+      }
+    },
+    "Text": {
+      "Primary": {
+        "value": "#000000cc",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#0000008c",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#0000006b",
+        "type": "color"
+      },
+      "Inverse": {
+        "value": "#ffffff",
+        "type": "color"
+      }
     }
   }
 }
