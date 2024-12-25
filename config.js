@@ -36,5 +36,16 @@ export default {
         },
       ],
     },
+    css: {
+      transformGroup: "css",
+      buildPath: "build/css/",
+      files: [
+        {
+          destination: "_variables.css",
+          format: "css/variables",
+          filter: "semantic-colors",
+        }
+      ]
+    },
   },
 };

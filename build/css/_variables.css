@@ -1,0 +1,16 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-background-primary: #f0f0f0;
+  --color-surface-primary: #ffffff;
+  --color-surface-secondary: #f7f5f1;
+  --color-surface-secondary-alpha: rgba(122, 86, 24, 0.05);
+  --color-surface-tertiary: #d4d4d4;
+  --color-surface-tertiary-alpha: rgba(0, 0, 0, 0.17);
+  --color-text-primary: rgba(0, 0, 0, 0.8);
+  --color-text-secondary: rgba(0, 0, 0, 0.55);
+  --color-text-tertiary: rgba(0, 0, 0, 0.42);
+  --color-text-inverse: #ffffff;
+}
