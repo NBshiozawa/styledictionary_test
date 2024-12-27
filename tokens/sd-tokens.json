@@ -492,7 +492,7 @@
   "Color": {
     "Background": {
       "Primary": {
-        "value": "#f0f0f0",
+        "value": "#f2eee8",
         "type": "color"
       }
     },
@@ -516,6 +516,168 @@
       "TertiaryAlpha": {
         "value": "#0000002b",
         "type": "color"
+      },
+      "Emotion": {
+        "value": "#ed7c7c",
+        "type": "color"
+      },
+      "EmotionPressed": {
+        "value": "#e35d5d",
+        "type": "color"
+      },
+      "EmotionSubtle": {
+        "value": "#fff5f5",
+        "type": "color"
+      },
+      "Caution": {
+        "value": "#e50000",
+        "type": "color"
+      },
+      "CautionPressed": {
+        "value": "#cc0000",
+        "type": "color"
+      },
+      "CautionSubtle": {
+        "value": "#fffafa",
+        "type": "color"
+      },
+      "Brand": {
+        "Primary": {
+          "value": "#ecdab6",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#c9a459",
+          "type": "color",
+          "description": "⚠️新規要素での使用は非推奨"
+        },
+        "Tertiary": {
+          "value": "#b28936",
+          "type": "color",
+          "description": "⚠️新規要素での使用は非推奨"
+        },
+        "Subtle": {
+          "value": "#fcf6ea",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "Primary": {
+          "value": "#ad2323",
+          "type": "color"
+        },
+        "PrimaryPressed": {
+          "value": "#961717",
+          "type": "color"
+        },
+        "PrimarySubtle": {
+          "value": "#ffebeb",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#0e997f",
+          "type": "color"
+        },
+        "SecondaryPressed": {
+          "value": "#038068",
+          "type": "color"
+        },
+        "SecondarySubtle": {
+          "value": "#f0faf8",
+          "type": "color"
+        }
+      },
+      "Action": {
+        "Primary": {
+          "value": "#ed7c7c",
+          "type": "color"
+        },
+        "PrimaryPressed": {
+          "value": "#e35d5d",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "#d4d4d4",
+          "type": "color"
+        },
+        "NeutralPressed": {
+          "value": "#b8b8b8",
+          "type": "color"
+        }
+      },
+      "Feature": {
+        "FirstNice": {
+          "value": "#e35d5d",
+          "type": "color"
+        },
+        "FirstNicePressed": {
+          "value": "#d14343",
+          "type": "color"
+        },
+        "FirstNiceSubtle": {
+          "value": "#fff5f5",
+          "type": "color"
+        },
+        "VeryNice": {
+          "value": "#e8b727",
+          "type": "color"
+        },
+        "VeryNicePressed": {
+          "value": "#d9a91c",
+          "type": "color"
+        },
+        "VeryNiceSubtle": {
+          "value": "#fff9e5",
+          "type": "color"
+        },
+        "LastNice": {
+          "value": "#a86aab",
+          "type": "color"
+        },
+        "LastNicePressed": {
+          "value": "#9d57a1",
+          "type": "color"
+        },
+        "LastNiceSubtle": {
+          "value": "#fcf2fc",
+          "type": "color"
+        },
+        "VideoCall": {
+          "value": "#0e997f",
+          "type": "color"
+        },
+        "VideoCallPressed": {
+          "value": "#038068",
+          "type": "color"
+        },
+        "VideoCallSubtle": {
+          "value": "#f0faf8",
+          "type": "color"
+        },
+        "Voice": {
+          "value": "#3ab4c2",
+          "type": "color"
+        },
+        "VoicePressed": {
+          "value": "#139bab",
+          "type": "color"
+        },
+        "VoiceSubtle": {
+          "value": "#edf9fa",
+          "type": "color"
+        },
+        "Identity": {
+          "value": "#5b8ac9",
+          "type": "color"
+        },
+        "IdentityPressed": {
+          "value": "#4377bf",
+          "type": "color"
+        },
+        "IdentitySubtle": {
+          "value": "#f2f8ff",
+          "type": "color"
+        }
       }
     },
     "Text": {
@@ -534,6 +696,218 @@
       "Inverse": {
         "value": "#ffffff",
         "type": "color"
+      },
+      "Brand": {
+        "value": "#966b14",
+        "type": "color"
+      },
+      "Emotion": {
+        "value": "#e35d5d",
+        "type": "color"
+      },
+      "Caution": {
+        "value": "#e50000",
+        "type": "color"
+      },
+      "Emphasis": {
+        "Primary": {
+          "value": "#7a5618",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#7a5618b3",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "Primary": {
+          "value": "#ad2323",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#038068",
+          "type": "color"
+        }
+      },
+      "Feature": {
+        "FirstNice": {
+          "value": "#e35d5d",
+          "type": "color"
+        },
+        "VeryNice": {
+          "value": "#c79912",
+          "type": "color"
+        },
+        "LastNice": {
+          "value": "#9d57a1",
+          "type": "color"
+        },
+        "VideoCall": {
+          "value": "#038068",
+          "type": "color"
+        },
+        "Voice": {
+          "value": "#139bab",
+          "type": "color"
+        },
+        "Identity": {
+          "value": "#4377bf",
+          "type": "color"
+        }
+      }
+    },
+    "Icon": {
+      "Primary": {
+        "value": "#000000bd",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#0000006b",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#00000047",
+        "type": "color"
+      },
+      "Inverse": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Brand": {
+        "value": "#b28936",
+        "type": "color"
+      },
+      "Emotion": {
+        "value": "#ed7c7c",
+        "type": "color"
+      },
+      "Caution": {
+        "value": "#e50000",
+        "type": "color"
+      },
+      "Emphasis": {
+        "Primary": {
+          "value": "#7a5618ed",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#7a561880",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "Primary": {
+          "value": "#bf3232",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#0e997f",
+          "type": "color"
+        }
+      },
+      "Feature": {
+        "FirstNice": {
+          "value": "#e35d5d",
+          "type": "color"
+        },
+        "VeryNice": {
+          "value": "#e8b727",
+          "type": "color"
+        },
+        "LastNice": {
+          "value": "#a86aab",
+          "type": "color"
+        },
+        "VideoCall": {
+          "value": "#0e997f",
+          "type": "color"
+        },
+        "Voice": {
+          "value": "#3ab4c2",
+          "type": "color"
+        },
+        "Identity": {
+          "value": "#5b8ac9",
+          "type": "color"
+        }
+      }
+    },
+    "Border": {
+      "Primary": {
+        "value": "#7a561880",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#7a561836",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#0000000f",
+        "type": "color"
+      },
+      "Inverse": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Brand": {
+        "value": "#f5e7cb",
+        "type": "color"
+      },
+      "Emotion": {
+        "value": "#fad4d4",
+        "type": "color"
+      },
+      "Caution": {
+        "value": "#e50000",
+        "type": "color"
+      },
+      "Accent": {
+        "Primary": {
+          "value": "#fad4d4",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#c3e5df",
+          "type": "color"
+        }
+      },
+      "Feature": {
+        "FirstNice": {
+          "value": "#fad4d4",
+          "type": "color"
+        },
+        "VeryNice": {
+          "value": "#f7da83",
+          "type": "color"
+        },
+        "LastNice": {
+          "value": "#ead5eb",
+          "type": "color"
+        },
+        "VideoCall": {
+          "value": "#c3e5df",
+          "type": "color"
+        },
+        "Voice": {
+          "value": "#c3e7eb",
+          "type": "color"
+        },
+        "Identity": {
+          "value": "#cbdcf5",
+          "type": "color"
+        }
+      }
+    },
+    "Other": {
+      "Status": {
+        "Online": {
+          "value": "#9dd900",
+          "type": "color"
+        },
+        "LoginDay": {
+          "value": "#ffd600",
+          "type": "color"
+        }
       }
     }
   }
