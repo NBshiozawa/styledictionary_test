@@ -99,4 +99,5 @@
   <color name="color_border_feature_identity">#ffcbdcf5</color>
   <color name="color_other_status_online">#ff9dd900</color>
   <color name="color_other_status_login_day">#ffffd600</color>
+  <color name="color_other_scrim">#8c000000</color>
 </resources>

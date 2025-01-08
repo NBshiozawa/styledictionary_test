@@ -908,7 +908,17 @@
           "value": "#ffd600",
           "type": "color"
         }
+      },
+      "Scrim": {
+        "value": "#0000008c",
+        "type": "color"
       }
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "Color/Default",
+      "type": "other"
     }
   }
 }

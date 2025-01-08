@@ -98,4 +98,5 @@
   --color-border-feature-identity: #cbdcf5;
   --color-other-status-online: #9dd900;
   --color-other-status-login-day: #ffd600;
+  --color-other-scrim: rgba(0, 0, 0, 0.55);
 }

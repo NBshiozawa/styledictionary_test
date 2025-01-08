@@ -103,7 +103,8 @@ colorBorderFeatureVideoCall,
 colorBorderFeatureVoice,
 colorBorderFeatureIdentity,
 colorOtherStatusOnline,
-colorOtherStatusLoginDay
+colorOtherStatusLoginDay,
+colorOtherScrim
 };
 
 @interface : NSObject
