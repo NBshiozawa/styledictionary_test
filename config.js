@@ -9,19 +9,16 @@ export default {
   },
   platforms: {
     ios: {
-      transformGroup: "ios",
-      transforms: ["name/camel"],
+      transformGroup: "ios-swift",
       buildPath: "build/ios/",
       files: [
         {
-          destination: "colors.h",
-          format: "ios/colors.h",
+          destination: "Colors.swift",
+          format: "ios-swift/class.swift",
           filter: "semantic-colors",
-        },
-        {
-          destination: "colors.m",
-          format: "ios/colors.m",
-          filter: "semantic-colors",
+          options: {
+            className: "SdColors",
+          },
         },
       ],
     },
