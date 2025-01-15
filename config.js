@@ -18,6 +18,7 @@ export default {
           filter: "semantic-colors",
           options: {
             className: "SdColors",
+            accessControl: "internal",
           },
         },
       ],
