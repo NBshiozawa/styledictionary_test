@@ -3,10 +3,14 @@ import fs from 'fs';
 const tokens = JSON.parse(fs.readFileSync('tokens/sd-tokens.json', 'utf-8'));
 
 // iOS xcassetsカラー用のディレクトリとファイルの出力設定
-function generateColorFiles(obj, parentKey = '') {
-  return Object.keys(obj).flatMap(key => {
+function generateColorFiles(colorTokens, parentKey = '') {
+  if (!colorTokens || typeof colorTokens !== 'object') {
+    throw new Error('無効なトークンオブジェクトです');
+  }
+
+  return Object.keys(colorTokens).flatMap((key) => {
     const tokenPath = parentKey ? `${parentKey}${key}` : key;
-    if (Object.hasOwn(obj[key], 'value')) {
+    if (Object.hasOwn(colorTokens[key], 'value')) {
       return {
         destination: `${tokenPath}.colorset/Contents.json`,
         format: 'colorset',
@@ -14,9 +18,9 @@ function generateColorFiles(obj, parentKey = '') {
         filter: (token) => token.path.join('') === `Color${tokenPath}`, // token.path → [ 'Color', 'Surface', 'Brand', 'Subtle' ],
       };
     } else {
-      return generateColorFiles(obj[key], tokenPath);
+      return generateColorFiles(colorTokens[key], tokenPath);
     }
-  })
+  });
 }
 
 export default {
@@ -39,9 +43,7 @@ export default {
     },
     assets: {
       buildPath: 'build/SdColors.xcassets/',
-      files: [
-       ...generateColorFiles(tokens.Color),
-      ],
+      files: [...generateColorFiles(tokens.Color)],
     },
     android: {
       transformGroup: 'android',
@@ -62,8 +64,8 @@ export default {
           destination: '_variables.css',
           format: 'css/variables',
           filter: 'semantic-filter',
-        }
-      ]
+        },
+      ],
     },
   },
 };
